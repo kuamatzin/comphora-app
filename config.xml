@@ -14,9 +14,8 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
+  <gap:plugin name="com.pushbots.push" version="1.2.3" source="plugins.cordova.io"/>
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
-  <!-- Plugings -->
-  <gap:plugin name="com.pushbots.push" version="1.2.3" source="plugins.cordova.io"/>
 </widget>
