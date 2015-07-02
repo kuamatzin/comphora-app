@@ -2,11 +2,11 @@
 <widget id="com.ionicframework.comparahora711210" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Comparahora</name>
   <description>
-        An Ionic Framework and Cordova project.
-    </description>
+    Comparahora Admin App
+  </description>
   <author email="hi@ionicframework" href="http://ionicframework.com/">
-      Ionic Framework Team
-    </author>
+    Carlos Cuamatzin Hernandez
+  </author>
   <content src="index.html"/>
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
@@ -14,7 +14,7 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="android-minSdkVersion" value="16"/>
   <preference name="BackupWebStorage" value="none"/>
-  <gap:plugin name="com.pushbots.push" version="1.2.3" source="plugins.cordova.io"/>
+  <gap:plugin name="com.pushbots.push" version="1.2.3" source="plugins.cordova.io" />
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
