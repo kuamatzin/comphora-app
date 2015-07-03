@@ -53,11 +53,7 @@ angular.module('starter.controllers', [])
 })
 
 .controller('VentasCtrl', function($scope, $stateParams, $http) {
-  /*
-  $http.get('http://127.0.0.1:8080/comparahora/public/api/ventas').success(function(ventas){
+  $http.get('http://comparahora.com/comphora/public/api/ventas').success(function(ventas){
       $scope.ventas = ventas;
-  });*/
-
-  $scope.ventas = [{"status":"Activo","status_llamada":null,"nombre":"Carlos","apellido":"Cuamatzin","celular":"2225630362","smartphone":"Apple iPhone 4S 32GB","plan":"TELCEL PRO 200"},{"status":"Buro de Cr\u00e9dito","status_llamada":null,"nombre":"Carlos","apellido":"Cuamatzin","celular":"2225630362","smartphone":"Apple iPhone 4S 32GB","plan":"TELCEL PRO 200"},{"status":"Activo","status_llamada":2,"nombre":"Carlos","apellido":"Cuamatzin","celular":"2225630362","smartphone":"Apple iPhone 4S 32GB","plan":"TELCEL PRO 200"},{"status":"Activo","status_llamada":3,"nombre":"Carlos","apellido":"Cuamatzin","celular":"2225630362","smartphone":"Apple iPhone 4S 32GB","plan":"TELCEL PRO 200"},{"status":"Aprobado","status_llamada":null,"nombre":"Carlos","apellido":"Cuamatzin","celular":"2225630362","smartphone":"LG G3","plan":"Plan Vas a Volar 1.5 GB"},{"status":"Activo","status_llamada":2,"nombre":"Carlos","apellido":"Cuamatzin","celular":"2225630362","smartphone":"Apple iPhone 4S 32GB","plan":"TELCEL PRO 200"},{"status":"Activo","status_llamada":2,"nombre":"Carlos","apellido":"Cuamatzin","celular":"2225630362","smartphone":"Apple iPhone 6 Plus 64GB","plan":"Plan 800"}];
-  console.log($scope.ventas);
+  });
 });

@@ -2,7 +2,8 @@
   <ion-content>
     <h1 class="text-center">Ventas</h1>
     <ion-list>
-      <ion-item ng-repeat="venta in ventas" href="#/app/playlists/{{playlist.id}}">
+      <!--<ion-item ng-repeat="venta in ventas" href="#/app/playlists/{{playlist.id}}">-->
+      <ion-item ng-repeat="venta in ventas" href="#">
         <div class="row">
           <div class="col col-50"><p class="pull-left">{{venta.nombre}} {{venta.apellido}}</p></div>
           <div class="col col-50"><p class="pull-right">{{venta.plan}}</p></div>
