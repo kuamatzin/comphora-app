@@ -1,5 +1,13 @@
-<ion-view view-title="Search">
+<ion-view view-title="Ventas">
   <ion-content>
-    <h1>Search</h1>
+    <h1 class="text-center">Ventas</h1>
+    <ion-list>
+      <ion-item ng-repeat="venta in ventas" href="#/app/playlists/{{playlist.id}}">
+        <div class="row">
+          <div class="col col-50"><p class="pull-left">{{venta.nombre}} {{venta.apellido}}</p></div>
+          <div class="col col-50"><p class="pull-right">{{venta.plan}}</p></div>
+        </div>
+      </ion-item>
+    </ion-list>
   </ion-content>
 </ion-view>
